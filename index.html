@@ -1,17 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <meta charset="UTF-8"/>
-  <meta property="og:title"       content="Приглашение на юбилей 🎂"/>
-  <meta property="og:description" content="Илларион Петрович · 80 лет · 7 августа 2026"/>
-  <meta property="og:image"       content="https://drive.google.com/thumbnail?id=1rakqgI-rP6Z4WZ188LwZ9Qa5IujzOEch&sz=s800"/>
-  <meta property="og:type"        content="website"/>
-  <script>
-    const token = window.location.hash.slice(1);
-    const base  = "https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec";
-    window.location.replace(token ? base + "?invitation=" + token : base);
-  </script>
-</head>
-<body></body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta property="og:title" content="Приглашение на юбилей 🎂" />
+        <meta
+            property="og:description"
+            content="Илларион Петрович · 80 лет · 7 августа 2026"
+        />
+        <meta
+            property="og:image"
+            content="https://drive.google.com/thumbnail?id=1rakqgI-rP6Z4WZ188LwZ9Qa5IujzOEch&sz=s800"
+        />
+        <meta property="og:type" content="website" />
+        <script>
+            const token = window.location.hash.slice(1);
+            const base =
+                "https://script.google.com/macros/s/AKfycbylHZuHtJ0HstGO0R9mWCqmMOYwemIAkf94Ed2RdUAKdYY7x-WdZu0NORwFGfr_cPYR/exec";
+            window.location.replace(
+                token ? base + "?invitation=" + token : base,
+            );
+        </script>
+    </head>
+    <body></body>
 </html>
- 
