@@ -13,12 +13,9 @@
         />
         <meta property="og:type" content="website" />
         <script>
-            const token = window.location.hash.slice(1);
             const base =
                 "https://script.google.com/macros/s/AKfycbylHZuHtJ0HstGO0R9mWCqmMOYwemIAkf94Ed2RdUAKdYY7x-WdZu0NORwFGfr_cPYR/exec";
-            window.location.replace(
-                token ? base + "?invitation=" + token : base,
-            );
+            window.location.replace(base);
         </script>
     </head>
     <body></body>
